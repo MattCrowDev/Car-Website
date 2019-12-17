@@ -1,0 +1,162 @@
+@font-face
+{
+    font-family: 'Aldritch';
+    src: url(../fonts/Aldrich-Regular.ttf);
+}
+
+
+@media only screen and (max-width: 799px)
+{
+
+    /* Grid Layouts */
+#grid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+   
+    grid-gap: 8px;
+    
+}
+
+header
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+nav
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+article
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+footer
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+/* _____________________________________ */
+
+html
+{
+    background-color: white;
+    font-family: 'Aldritch';
+    background-image: url(../images/IndexBackground2.png);
+    background-size: cover;
+
+}
+
+body
+{
+    position: relative;
+
+    width: 100%;
+    box-shadow: black 0px 0px 10px;
+    background-color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+
+/*HEADER STYLES*/
+header
+{
+    background-color: rgb(194, 194, 194);
+    position: relative;
+    height: 100px;
+    
+}
+header > h1
+{
+    text-align: center;
+}
+header > h2
+{
+    text-align: center;
+}
+
+/*______________________*/
+
+/*NAV STYLES*/
+nav
+{
+    height: 400px;
+    background-color: rgb(165, 165, 165);
+}
+nav > div#carLinkGallery
+{
+    position: relative;
+    margin: auto;
+
+    background-color: gray;
+}
+nav > div#carLinkGallery > div > img
+{
+    width: 90%;
+    background-color: yellow;
+}
+
+/*______________________*/
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1199px)
+{
+
+html
+{
+    background-color: white;
+    font-family: 'Aldritch';
+    background-image: url(../images/IndexBackground2.png);
+    background-size: cover;
+
+}
+
+body
+{
+    position: relative;
+    height: 500px;
+    width: 95%;
+    box-shadow: black 0px 0px 10px;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1200px)
+{
+
+html
+{
+    background-color: white;
+    font-family: 'Aldritch';
+    background-image: url(../images/IndexBackground2.png);
+    background-size: cover;
+
+}
+
+body
+{
+    position: relative;
+    height: 500px;
+    width: 90%;
+    box-shadow: black 0px 0px 10px;
+    background-color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+}
