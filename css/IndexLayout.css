@@ -98,13 +98,20 @@ nav > div#carLinkGallery
 {
     position: relative;
     margin: auto;
-
+    width: 95%;
     background-color: gray;
 }
-nav > div#carLinkGallery > div > img
+nav > div#carLinkGallery > div
+{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+nav > div#carLinkGallery > div > a
 {
     width: 90%;
     background-color: yellow;
+    text-align: center;
 }
 
 /*______________________*/
