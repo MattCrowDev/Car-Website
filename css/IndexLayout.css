@@ -105,13 +105,135 @@ nav > div#carLinkGallery > div
 {
     margin: auto;
     text-align: center;
-    width: 90%;
+    width: 200px;
+    position: absolute;
 }
 nav > div#carLinkGallery > div > a
 {
-    width: 90%;
+    width: 200px;
     background-color: yellow;
     text-align: center;
+
+}
+nav > div#carLinkGallery > div > a > img
+{
+    width: 200px;
+}
+
+nav > div#carLinkGallery > div#delta
+{
+
+    -webkit-animation-name: delta; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: delta;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes delta
+{
+    0%      {transform: translateY(10px) scale(1.0); z-index: 2; box-shadow: black 0px 10px 10px;}
+    20%     {transform: translateY(20px) scale(1.02);z-index: 3;box-shadow: black 0px 13px 16px;}
+    40%     {transform: translateY(30px) scale(1.04);z-index: 4;box-shadow: black 0px 16px 22px;}
+    60%     {transform: translateY(40px) scale(1.06);z-index: 5;box-shadow: black 0px 19px 28px;}
+    80%     {transform: translateY(50px) scale(1.08);z-index: 6;box-shadow: black 0px 23px 34px;}
+    90%     {transform: translateY(70px) translateX(230px) scale(1.1) skewY(10deg);z-index: 6;box-shadow: black 0px 35px 50px;}
+    95%     {transform: translateY(0px) translateX(210px) scale(0.96) skewY(5deg);z-index: 1;box-shadow: black 0px 6px 8px;}
+    100%    {transform: translateY(10px) scale(1.0);z-index: 2;box-shadow: black 0px 10px 10px;}
+}
+nav > div#carLinkGallery > div#metro
+{
+
+    -webkit-animation-name: metro; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: metro;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes metro
+{
+    0%      {transform: translateY(20px) scale(1.02);z-index: 3;box-shadow: black 0px 13px 16px;}
+    20%     {transform: translateY(30px) scale(1.04);z-index: 4;box-shadow: black 0px 16px 22px;}
+    40%     {transform: translateY(40px) scale(1.06);z-index: 5;box-shadow: black 0px 19px 28px;}
+    60%     {transform: translateY(50px) scale(1.08);z-index: 6;box-shadow: black 0px 23px 34px;}
+    70%     {transform: translateY(70px) translateX(230px) scale(1.1) skewY(10deg);z-index: 6;box-shadow: black 0px 35px 50px;}
+    75%     {transform: translateY(0px) translateX(210px) scale(0.96) skewY(5deg);z-index: 1;box-shadow: black 0px 6px 8px;}
+    80%     {transform: translateY(10px) scale(1.0);z-index: 2; box-shadow: black 0px 10px 10px;}
+    100%    {transform: translateY(20px) scale(1.02);z-index: 3;box-shadow: black 0px 13px 16px;}
+}
+nav > div#carLinkGallery > div#peugeot
+{
+
+    -webkit-animation-name: peugeot; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: peugeot;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes peugeot
+{
+    0%      {transform: translateY(30px) scale(1.04); z-index: 4;box-shadow: black 0px 16px 22px;}
+    20%     {transform: translateY(40px) scale(1.06);z-index: 5;box-shadow: black 0px 19px 28px;}
+    40%     {transform: translateY(50px) scale(1.08);z-index: 6;box-shadow: black 0px 23px 34px;}
+    50%     {transform: translateY(70px) translateX(230px) scale(1.1) skewY(10deg);z-index: 6;box-shadow: black 0px 35px 50px;}
+    55%     {transform: translateY(0px) translateX(210px) scale(0.96) skewY(5deg);z-index: 1;box-shadow: black 0px 6px 8px;}
+    60%     {transform: translateY(10px) scale(1.0);z-index: 2; box-shadow: black 0px 10px 10px;}
+    80%     {transform: translateY(20px) scale(1.02);z-index: 3;box-shadow: black 0px 13px 16px;}
+    100%    {transform: translateY(30px) scale(1.04);z-index: 4;box-shadow: black 0px 16px 22px;}
+}
+nav > div#carLinkGallery > div#quattro
+{
+
+    -webkit-animation-name: quattro; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: quattro;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes quattro
+{
+    0%      {transform: translateY(40px) scale(1.06); z-index: 5;box-shadow: black 0px 19px 28px;}
+    20%     {transform: translateY(50px) scale(1.08);z-index: 6;box-shadow: black 0px 23px 34px;}
+    30%     {transform: translateY(70px) translateX(230px) scale(1.1) skewY(10deg);z-index: 6;box-shadow: black 0px 35px 50px;}
+    35%     {transform: translateY(0px) translateX(210px) scale(0.96) skewY(5deg);z-index: 1;box-shadow: black 0px 6px 8px;}
+    40%     {transform: translateY(10px) scale(1.0);z-index: 2; box-shadow: black 0px 10px 10px;}
+    60%     {transform: translateY(20px) scale(1.02);z-index: 3;box-shadow: black 0px 13px 16px;}
+    80%     {transform: translateY(30px) scale(1.04);z-index: 4;box-shadow: black 0px 16px 22px;}
+    100%    {transform: translateY(40px) scale(1.06);z-index: 5;box-shadow: black 0px 19px 28px;}
+}
+nav > div#carLinkGallery > div#rs-200
+{
+
+    -webkit-animation-name: rs200; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: rs200;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes rs200
+{
+    0%      {transform: translateY(50px) scale(1.08); z-index: 6;box-shadow: black 0px 23px 34px;}
+    10%     {transform: translateY(70px) translateX(230px) scale(1.1) skewY(10deg);z-index: 6;box-shadow: black 0px 35px 50px;}
+    15%     {transform: translateY(0px) translateX(210px) scale(0.96) skewY(5deg);z-index: 1;box-shadow: black 0px 6px 8px;}
+    20%     {transform: translateY(10px) scale(1.0);z-index: 2; box-shadow: black 0px 10px 10px;}
+    40%     {transform: translateY(20px) scale(1.02);z-index: 3;box-shadow: black 0px 13px 16px;}
+    60%     {transform: translateY(30px) scale(1.04);z-index: 4;box-shadow: black 0px 16px 22px;}
+    80%     {transform: translateY(40px) scale(1.06);z-index: 5;box-shadow: black 0px 19px 28px;}
+    100%    {transform: translateY(50px) scale(1.08);z-index: 6;box-shadow: black 0px 23px 34px;}
 }
 
 /*______________________*/
