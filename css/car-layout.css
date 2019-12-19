@@ -54,7 +54,6 @@ button
 }
 h1
 {
-    text-shadow: rgb(255, 234, 131) 0px 1px 0px, rgb(255, 234, 131) 1px 0px 0px, rgb(255, 234, 131) -1px 0px 0px, rgb(255, 234, 131) 0px -1px 0px;
     text-align: center;
     font-family: 'Aldritch';
     font-size: 2em;
@@ -63,7 +62,6 @@ h1
 }
 h2
 {
-    text-shadow: rgb(255, 234, 131) 0px 1px 0px, rgb(255, 234, 131) 1px 0px 0px, rgb(255, 234, 131) -1px 0px 0px, rgb(255, 234, 131) 0px -1px 0px;
     text-align: center;
     font-family: 'Aldritch';
     font-size: 3em;
@@ -246,7 +244,7 @@ td
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 4;
         
     }
     .statistics 
@@ -254,13 +252,13 @@ td
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
-        grid-row-end: 4;
+        grid-row-end: 3;
     }
     .car-selector 
     {
         grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 4;
         grid-row-end: 5;
     }
     td 
