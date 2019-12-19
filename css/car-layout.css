@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: 'Aldritch';
+    src: url(../fonts/Aldrich-Regular.ttf);
+}
+
 img
 {
     width: 100%;
@@ -15,7 +21,7 @@ img
 }
 .car-bio-and-history
 {
-    background-color: rgb(255,21,0);
+    background-color: rgba(231, 231, 231,.8);
     margin-right: 5%;
     margin-left: 5%;
 }
@@ -48,10 +54,32 @@ button
 }
 h1
 {
+    text-shadow: rgb(255, 234, 131) 0px 1px 0px, rgb(255, 234, 131) 1px 0px 0px, rgb(255, 234, 131) -1px 0px 0px, rgb(255, 234, 131) 0px -1px 0px;
     text-align: center;
+    font-family: 'Aldritch';
     font-size: 2em;
     font-weight: bolder;
     word-break: break-all;
+}
+h2
+{
+    text-shadow: rgb(255, 234, 131) 0px 1px 0px, rgb(255, 234, 131) 1px 0px 0px, rgb(255, 234, 131) -1px 0px 0px, rgb(255, 234, 131) 0px -1px 0px;
+    text-align: center;
+    font-family: 'Aldritch';
+    font-size: 3em;
+    font-weight: bolder;
+    word-break: break-all;
+}
+h3
+{
+    text-align: center;
+    font-family: 'Aldritch';
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+p{
+    font-family: 'Aldritch'; 
+    line-height: 1.5em;
 }
 
 
@@ -146,7 +174,6 @@ table {
     border-spacing: 0;
     border-width: 1px 0 0 1px;
     margin-bottom: 24px;
-    max-width: 100%;
     word-break: break-all;
     margin-right: 2vw;
     margin-left: 2vw;
@@ -160,7 +187,7 @@ td
     min-width: 20vw;
     color: white;
 }
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     /*the grid layout for mobile*/
     .tributes-layout-grid
@@ -198,7 +225,7 @@ td
         grid-row-end: 5;
     }
   }
-  @media (min-width: 800px) {
+  @media (min-width: 1300px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     /*the grid layout for mobile*/
     .tributes-layout-grid
@@ -220,6 +247,7 @@ td
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 3;
+        
     }
     .statistics 
     {
@@ -240,6 +268,7 @@ td
         height: 20px;
         min-width: 70px;
         color: white;
-        word-break: keep-all;
+        word-break: normal;
+        max-width: 20%;
     }
   }
